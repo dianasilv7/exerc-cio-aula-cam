@@ -7,11 +7,34 @@ body {
 
 h1 {
       font-family: "Indie Flower", cursive;
-  font-weight: 400;
+  font-weight: 100;
   font-style: normal;
 }
 
 img {
     width: 95%;
     height: auto;
+}
+
+nav {
+    background-color: rgb(153, 148, 201);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    font-family: "Indie Flower", cursive;
+  font-weight: 100;
+  font-style: normal;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold, under;
+}
+
+nav a:hover {
+    color: white;
+    background-color: rgb(99, 86, 138);
+    padding: 5px;
+    border-radius: 5px;
 }
