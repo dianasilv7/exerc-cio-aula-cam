@@ -1,19 +1,25 @@
 body {
     background-color: lightsteelblue;
-    max-width: 500px;
+    max-width: 800px;
     margin: auto;
-    font-family: Arial;
+    font-family: "indie flower", cursive;
 }
 
 h1 {
       font-family: "Indie Flower", cursive;
-  font-weight: 100;
+  font-weight: 500;
   font-style: normal;
 }
-
+h2 {
+    font-family: "Indie Flower",cursive;
+  font-weight: 500;
+  font-style: normal;
+}
 img {
     width: 95%;
     height: auto;
+    border-radius: 15px;
+    max-width: 400px;
 }
 
 nav {
@@ -29,7 +35,6 @@ nav a {
     margin: 10px;
     text-decoration: none;
     color: black;
-    font-weight: bold, under;
 }
 
 nav a:hover {
@@ -38,3 +43,4 @@ nav a:hover {
     padding: 5px;
     border-radius: 5px;
 }
+
