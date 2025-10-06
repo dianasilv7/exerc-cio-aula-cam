@@ -4,96 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre-mim - Diana Silva</title>
-    
-    <!-- Root-relative path for CSS -->
-    <link rel="stylesheet" href="/estilos/style.css">
-    
+    <link rel="stylesheet" href="../estilos/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-
-    <style>
-        main h1 {
-            background-color: rgba(171, 154, 219, 0.281);
-            text-align: center;
-            padding: 10px;
-        }
-
-        .foto-linha {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .foto-linha img {
-            width: 100%;
-            border-radius: 15px;
-            max-width: 400px;
-        }
-
-        .caption {
-            text-align: center;
-            width: 100%;
-            font-style: italic;
-            margin-top: -10px;
-            margin-bottom: 20px;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 30px;
-            padding: 10px;
-            font-size: 0.9em;
-            color: #555;
-        }
-
-        nav a {
-            margin-right: 15px;
-            text-decoration: none;
-            color: #000;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-    </style>
 </head>
 <body>
     <header>
         <nav>
-            <a href="/index.html">Home</a>
-            <a href="/Sobre-mim/index.html">Sobre Mim</a>
-            <a href="/contactos/index.html">Contactos</a>
+            <a href="../index.html">Home</a>
+            <a href="../Sobre-mim/index.html">Sobre Mim</a>
+            <a href="../contactos/index.html">Contactos</a>
         </nav>
     </header>
-
     <main>
-        <h1>Fotos</h1>
+        <h1 style="background-color: rgba(171, 154, 219, 0.281); text-align: center;">Fotos</h1>
         <p style="text-align: center;">Eu e os meus amigos</p>
 
-        <div class="foto-linha">
-            <img src="/img/amigos.jpg" alt="amigos">
-            <img src="/img/amigos2.jpeg" alt="amigos2">
-            <img src="/img/cadela.jpeg" alt="cao">
-            <p class="caption">A minha cadela - Cookie</p>
-            <img src="/img/cookie.jpeg" alt="cao2">
-            <img src="/img/nyc.jpeg" alt="viagem">
-            <img src="/img/geres.jpeg" alt="viagem3">
-            <p class="caption">Viagens que fiz este ano</p>
-            <img src="/img/londres torre.jpeg" alt="editado">
-            <p class="caption">Alguns dos meus artistas favoritos</p>
-            <img src="/img/The weeknd.jpg" alt="cantor fav">
-            <img src="/img/sza.jpg.webp" alt="cantora fav">
-            <img src="/img/carti.jpeg.webp" alt="cantor fav2">
-            <img src="/img/frank ocean.jpg" alt="cantor fav2">
-            <img src="/img/sade.jpg" alt="cantora fav2">
+        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+            <img src="../img/amigos.jpg" alt="amigos" style="width:100%; max-width: 350px; border-radius: 15px;">
+            <img src="../img/amigos2.jpeg" alt="amigos2" style="width:100%; max-width: 300px; border-radius: 15px;">
+            <img src="../img/cadela.jpeg" alt="cao" style="width:100%; max-width: 300px; border-radius: 15px;">
+            <img src="../img/cookie.jpeg" alt="cao2" style="width:100%; max-width: 200px; border-radius: 15px;">
+            <p style="text-align: center;">A minha cadela - Cookie</p>
+            <img src="../img/nyc.jpeg" alt="viagem" style="width:100%; max-width: 350px; border-radius: 15px;">
+            <img src="../img/geres.jpeg" alt="viagem3" style="width:100%; max-width: 300px; border-radius: 15px;">
+            <p style="text-align:left">Viagens que fiz este ano</p>
+            <img src="../img/londres torre.jpeg" alt="editado" style="width:100%; max-width: 400px; border-radius: 15px;">
+            <p style="text-align:end">Alguns dos meus Artistas favoritos</p>
+            <img src="../img/The weeknd.jpg" alt="cantor fav" style="width:100%; max-width: 300px; border-radius: 15px;">
+            <img src="../img/sza.jpg.webp" alt="cantora fav" style="width:100%; max-width: 400px; border-radius: 15px;">
+            <img src="../img/carti.jpeg.webp" alt="cantor fav2" style="width:100%; max-width: 400px; border-radius: 15px;">
+            <img src="../img/frank ocean.jpg" alt="cantora fav2" style="width:100%; max-width: 400px; border-radius: 15px;">
+            <img src="../img/sade.jpg" alt="cantora fav2" style="width:100%; max-width: 400px; border-radius: 15px;">
         </div>
     </main>
 
-    <footer>
-        2025 - Diana Silva
+    <footer style="text-align: center; margin-top: 20px;">
+        2025-Diana Silva
     </footer>
 </body>
 </html>
