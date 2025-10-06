@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contactos - Diana Silva</title>
-  <link rel="stylesheet" href="../estilos/style.css">
+  
+  <!-- Use root-relative paths -->
+  <link rel="stylesheet" href="/estilos/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
@@ -14,12 +16,32 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
+      margin-top: 20px;
     }
 
     .linha-fotos img {
       width: 100px;
       height: auto;
       border-radius: 10px;
+      transition: transform 0.2s;
+    }
+
+    .linha-fotos img:hover {
+      transform: scale(1.1);
+    }
+
+    main h1 {
+      background-color: rgba(171, 154, 219, 0.281);
+      text-align: center;
+      padding: 10px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      padding: 10px;
+      font-size: 0.9em;
+      color: #555;
     }
   </style>
 </head>
@@ -27,26 +49,24 @@
 <body>
   <header>
     <nav>
-      <a href="../index.html">Home</a>
-      <a href="../Sobre-mim/index.html">Sobre Mim</a>
-      <a href="../contactos/index.html">Contactos</a>
+      <a href="/index.html">Home</a>
+      <a href="/Sobre-mim/index.html">Sobre Mim</a>
+      <a href="/contactos/index.html">Contactos</a>
     </nav>
   </header>
 
   <main>
-    <h1 style="background-color: rgba(171, 154, 219, 0.281); text-align: center;">
-      Instagram, WhatsApp e Email
-    </h1>
+    <h1>Instagram, WhatsApp e Email</h1>
 
     <div class="linha-fotos">
       <a href="https://www.instagram.com/diana.silv7/" target="_blank">
-        <img src="../img/insta.png" alt="Instagram">
+        <img src="/img/insta.png" alt="Instagram">
       </a>
       <a href="https://wa.me/+351932448201" target="_blank">
-        <img src="../img/whatsapp.png" alt="WhatsApp">
+        <img src="/img/whatsapp.png" alt="WhatsApp">
       </a>
       <a href="mailto:dianasilva.pt.12@gmail.com" target="_blank">
-        <img src="../img/email.webp" alt="Email">
+        <img src="/img/email.webp" alt="Email">
       </a>
     </div>
   </main>
